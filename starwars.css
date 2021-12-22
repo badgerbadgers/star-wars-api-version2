@@ -1,0 +1,66 @@
+/* global styling */
+body {
+    color: #181617;
+    background-image: url(img/star-wars-backgrounds-06.jpeg);
+    background-color: #181617;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+h1 {
+    font-family: 'Poller One', cursive;
+}
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+/* container styling */
+.container {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 100%;
+	margin-top: 5vh;
+    padding: 5px 5px 20px 5px;
+}
+
+/* child div styling */
+.child {
+    text-align: center;
+    max-width: 500px;
+    margin-right: 25px;
+    background-color: #FBAB7E;
+    /* background: linear-gradient(
+        to bottom,
+        #FBAB7E, 
+        transparent 100%
+      ); */
+    border-radius:15px;
+    padding: 20px 45px 30px 45px;
+    letter-spacing: .02em;
+}
+.link {
+  text-decoration: underline;
+  color: #d3415b;
+  cursor: pointer;
+}
+.bodyText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+/* button styling */
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #262832;
+    padding: 15px;
+    border-radius: 10px;
+}
+/* when user's mouse is hovering over button these styling changes will
+be applied  */
+button:hover {
+    background-color: #313945;
+}
